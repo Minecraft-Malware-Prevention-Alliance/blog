@@ -6,7 +6,7 @@ export const SITE: Site = {
   desc: "Threat intel and general blog about what we are doing over at MMPA.",
   title: "MMPA Blog",
   ogImage: "blog-og.png",
-  lightAndDarkMode: true,
+  lightAndDarkMode: false,
   postPerPage: 3,
 };
 
