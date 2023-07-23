@@ -33,7 +33,7 @@ The malware has been seen to DDoS LGBT related minecraft servers. From what we c
 ## IoCs
 
 - xmrig in minecraft server directory (`find | grep xmrig`)
-- *.flud[.]dev
+- *.fluyd[.]dev
 
 ### Hashes
 All hashes are provided as SHA-256.
