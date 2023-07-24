@@ -7,7 +7,7 @@ featured: true
 draft: false
 tags:
   - threat
-description: A new minecraft server backdoor and crypto minder.
+description: A new minecraft server backdoor and crypto miner.
 ---
 
 MMPA members noticed some malicious activity going on their own personal servers, when given samples to investigate, MMPA uncovered the malware family "Blurry".
