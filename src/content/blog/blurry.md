@@ -4,7 +4,7 @@ author: xyzeva
 pubDatetime: 2023-07-20T13:50:10.627Z
 postSlug: blurry-backdoor
 featured: true
-draft: true
+draft: false
 tags:
   - threat
 description: A new minecraft server backdoor and crypto minder.
