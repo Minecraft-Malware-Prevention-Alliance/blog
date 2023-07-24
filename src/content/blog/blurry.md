@@ -3,7 +3,7 @@ title: Blurry Spigot Backdoor
 author: xyzeva
 pubDatetime: 2023-07-20T13:50:10.627Z
 postSlug: blurry-backdoor
-featured: false
+featured: true
 draft: true
 tags:
   - threat
