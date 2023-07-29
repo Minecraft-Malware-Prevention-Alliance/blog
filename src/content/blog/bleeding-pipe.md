@@ -74,9 +74,9 @@ As a player, we recommend checking for suspicious files, doing an antivirus scan
 
 ### Mitigation
 
-If you have EnderIO or LogisticsPipes, update to the latest version on CurseForge.
+If you have EnderIO or LogisticsPipes, update to the latest versions on CurseForge.
 
-If you have BDLib, migrate to the GT New Horizons forks of both if possible.
+If you have BDLib, migrate to the GT New Horizons fork if possible.
 
 To mitigate all mods generally, you can install our mod [PipeBlocker](https://modrinth.com/mod/pipeblocker) on both forge servers and clients. We also recommend updating LogisticsPipes and all of your other mods to the newest versions available. Note that pre-made modpacks may become unstable or otherwise break by updating all mods. 
 
