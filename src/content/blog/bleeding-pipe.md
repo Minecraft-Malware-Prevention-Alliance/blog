@@ -41,10 +41,11 @@ The known affected mods include, but are not limited to:
 
 The first hints of such an issue go back all the way to March 2022, when [this](https://github.com/bdew-minecraft/bdlib/issues/57) issue was posted on BDLib's GitHub hinting at a vulnerability in `ObjectInputStream`. The GTNH team promptly merged a fix into their fork.
 
-On July 9, 2023, a [Forge forum post](https://forums.minecraftforge.net/topic/124918-potential-rce-zero-day-exploit-targeting-forge-142352860-1122/) was made about a RCE happening live on a server, managing to compromise the server and send the discord credentials of clients, indicating the spread to clients. The issue was nailed down to 3 mods; EnderCore, BDLib, and LogisticsPipes. However, this post did not go mainstream, and most were not aware.
-
 After this, the issue became quiet for a while, until [MineYourMind](https://mineyourmind.net) posted about a vulnerability on their [Enigmatica 2 Expert](https://www.curseforge.com/minecraft/modpacks/enigmatica2expert) server.
 
+On July 9, 2023, a [Forge forum post](https://forums.minecraftforge.net/topic/124918-potential-rce-zero-day-exploit-targeting-forge-142352860-1122/) was made about a RCE happening live on a server, managing to compromise the server and send the discord credentials of clients, indicating the spread to clients. The issue was nailed down to 3 mods; EnderCore, BDLib, and LogisticsPipes. However, this post did not go mainstream, and most were not aware.
+
+On July 24, 2023, MineYourMind suddenly announced they had "fixed" the bug and will be working with the devs to make patches. No other info was published.
 ![Message in MineYourMind's announcement channel alerting people of the exploit.](https://cdn.discordapp.com/attachments/1133934284034556017/1133935398612115456/image.png)
 
 After this series of announcements, the vulnerability was promptly patched in the rest of GTNH's forks, but it is still present in most servers with these mods, as well as the original versions of these mods.
