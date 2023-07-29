@@ -38,8 +38,9 @@ The known affected mods include, but are not limited to:
 - [Gadomancy](https://legacy.curseforge.com/minecraft/mc-mods/gadomancy)
 
 ## Initial Discovery
+To begin; this vulnerability is well known in the Java community, and has been fixed before in other mods, such as RebornCore. This exploit is generally referred to as a deserialization attack/gadget chain, and there are many exploited cases, however none have been of this scale in the Minecraft community.
 
-The first hints of such an issue go back all the way to March 2022, when [this](https://github.com/bdew-minecraft/bdlib/issues/57) issue was posted on BDLib's GitHub hinting at a vulnerability in `ObjectInputStream`. The GTNH team promptly merged a fix into their fork.
+The first hints of this exploit in this specific list of mods go back all the way to March 2022, when [this](https://github.com/bdew-minecraft/bdlib/issues/57) issue was posted on BDLib's GitHub hinting at a vulnerability in `ObjectInputStream`. The GTNH team promptly merged a fix into their fork.
 
 After this, the issue became quiet for a while, until [MineYourMind](https://mineyourmind.net) posted about a vulnerability on their [Enigmatica 2 Expert](https://www.curseforge.com/minecraft/modpacks/enigmatica2expert) server.
 
