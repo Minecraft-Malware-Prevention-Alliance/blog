@@ -30,7 +30,7 @@ This is a vulnerability in mods using unsafe deserialization code, not in Forge 
 The known affected mods include, but are not limited to:
 
 - EnderCore (dependency of EnderIO). The GT New Horizons fork has been fixed, and the original has been aswell, but EnderIO's minimum versions has not yet been updated.
-- LogisticsPipes. This has once again been fixed in the GT New Horizons fork as of July 25, 2023, but not upstream. If you have played on a server with this mod, assume you are infected.
+- LogisticsPipes' GT New Horizons version. This has once again been fixed as of July 25, 2023, and the original was not affected. If you have played on a server with this mod, assume you are infected.
 - The 1.7-1.12 versions of BDLib. Once again, GTNH fork has this fixed, but the developer of the original has [no intention](https://github.com/bdew-minecraft/bdlib/issues/57) of fixing it. Assume you are infected if you have played on a server and are not on the GTNH fork.
 - [Smart Moving 1.12](https://www.curseforge.com/minecraft/mc-mods/smart-moving-1-12-2)
 - [Brazier](https://www.curseforge.com/minecraft/mc-mods/brazier)
