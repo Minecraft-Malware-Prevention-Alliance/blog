@@ -17,11 +17,11 @@ description: A new vulnerability in LogisticsPipes and other mods allowing RCE o
 
 This vulnerability has already been exploited many times and many 1.7.10/1.12.2 modpacks are vulnerable, however any other version of Minecraft can be affected if an affected mod is installed.
 
-This vulnerability can spread past the server to infect any clients that might join, though we do not know if the activity we have observed does that.
+This vulnerability can spread past the server to infect any clients that might join, though we do not know if there is any such malware in the wild.
 
 # Introduction
 
-BleedingPipe is an exploit being used in the wild allowing **FULL** remote code execution on clients and servers running popular Minecraft mods on 1.7.10/1.12.2 Forge (its mainly those versions, other versions are affected.), alongside some other mods. Use of the BleedingPipe exploit has already been observed on unsuspecting servers.
+BleedingPipe is an exploit being used in the wild allowing **FULL** remote code execution on clients and servers running popular Minecraft mods on 1.7.10/1.12.2 Forge (other versions could also be affected), alongside some other mods. Use of the BleedingPipe exploit has already been observed on unsuspecting servers.
 
 This is a vulnerability in mods using unsafe deserialization code, not in Forge itself.
 
@@ -50,7 +50,7 @@ On July 24, 2023, MineYourMind suddenly announced they had "fixed" the bug and w
 
 After this series of announcements, the vulnerability was promptly patched in the rest of GTNH's forks, but it is still present in most servers with these mods, as well as the original versions of these mods.
 
-## Mass-Exploitation
+## Mass Exploitation
 
 After the initial discovery, we discovered that a bad actor scanned all Minecraft servers on the IPv4 address space to mass-exploit vulnerable servers. A likely malicious payload was then deployed onto all affected servers.
 
@@ -68,7 +68,7 @@ Malware targeting servers tends to infect other mods on the system once they get
 
 ### As a player
 
-**As a player if you dont play on servers, you are not affected**
+**As a player if you don't play on servers, you are not affected.**
 
 As a player, we recommend checking for suspicious files, doing an antivirus scan, and doing a scan on your `.minecraft` directory with something like [jSus](https://github.com/NeRdTheNed/jSus) or [jNeedle](https://github.com/KosmX/jneedle). Note that mod files are stored in a different directory when using a modded launcher such as Curseforge. These files can typically be accessed by right-clicking the modpack instance and clicking "Open Folder"
 
@@ -80,9 +80,10 @@ If you have BDLib or LogisticsPipes, migrate to the GT New Horizons forks of bot
 
 To mitigate all mods generally, you can install our mod [PipeBlocker](https://modrinth.com/mod/pipeblocker) on both forge servers and clients. We also recommend updating LogisticsPipes and all of your other mods to the newest versions available. Note that pre-made modpacks may become unstable or otherwise break by updating all mods. 
 
+If you are a mod developer and use `ObjectInputStream`, unless you know what you are doing, you are recommended to switch to another safe serializer or make your own.
 
 ## Technical Details
 
-The bug is a well known issue with deserialization using `ObjectInputStream`. The mods affected used OIS for networking code, and this allowed packets with malicious serialization to be sent. This allows any script to be run on the server, which then can be used on the server to do the same thing to all clients, therefore infecting all clients with the server in reverse.
+The bug is a well known issue with deserialization using `ObjectInputStream`. The mods affected used OIS for networking code, and this allowed packets with malicious serialization to be sent. This allows anything to be run on the server, which then can be used on the server to do the same thing to all clients, therefore infecting all clients with the server in reverse.
 
- If you have any information on BleedingPipe, you can join the [MMPA Discord](https://discord.gg/zPdFK47682), or contact us anonymously at contact@mmpa.info
+If you have any information on BleedingPipe, you can join the [MMPA Discord](https://discord.gg/zPdFK47682), or contact us anonymously at contact@mmpa.info.
