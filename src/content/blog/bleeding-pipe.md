@@ -21,7 +21,7 @@ This vulnerability can spread past the server to infect any clients that might j
 
 # Introduction
 
-BleedingPipe is an exploit being used in the wild allowing **FULL** remote code execution on clients and servers running popular Minecraft mods on 1.7.10/1.12.2 Forge, alongside some other mods. Use of the BleedingPipe exploit has already been observed on unsuspecting servers.
+BleedingPipe is an exploit being used in the wild allowing **FULL** remote code execution on clients and servers running popular Minecraft mods on 1.7.10/1.12.2 Forge (its mainly those versions, other versions are affected.), alongside some other mods. Use of the BleedingPipe exploit has already been observed on unsuspecting servers.
 
 This is a vulnerability in mods using unsafe deserialization code, not in Forge itself.
 
@@ -64,6 +64,8 @@ As a server admin, we recommend checking for suspicious files in your server and
 Malware targeting servers tends to infect other mods on the system once they get a target, so we recommend running something like [jSus](https://github.com/NeRdTheNed/jSus) or [jNeedle](https://github.com/KosmX/jneedle) on all installed mods.
 
 ### As a player
+
+**As a player if you dont play on servers, you are not affected**
 
 As a player, we recommend checking for suspicious files, doing an antivirus scan, and doing a scan on your `.minecraft` directory with something like [jSus](https://github.com/NeRdTheNed/jSus) or [jNeedle](https://github.com/KosmX/jneedle). Note that mod files are stored in a different directory when using a modded launcher such as Curseforge. These files can typically be accessed by right-clicking the modpack instance and clicking "Open Folder"
 
