@@ -27,7 +27,7 @@ This is a rather simple wording issue. In the OAuth scope for Microsoft permissi
 
 
 
-#### (In this, we will be using MultiMC as an example. The name can be anything! Do not assume because there is a trusted name that it is by a trusted developer.)
+### (In this, we will be using MultiMC as an example. The real MultiMC is safe, but the attacker can name the malicious app anything, including reusing name of a safe app! Do not assume because there is a trusted name that it is by a trusted developer.)
 ![Microsoft OAuth Prompt](https://cdn.discordapp.com/attachments/1124494549574758531/1135256504988074124/SyVBme4o2.png)
 
 This can be **very dangerous if you accept this prompt even once**, as the access tokens will not get revoked until 48 hours pass. You currently cannot do anything to revoke them, other than wait 48 hours.
