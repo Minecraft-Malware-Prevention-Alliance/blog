@@ -1,7 +1,7 @@
 ---
 title: 'Gas Auth: Gaslighting the masses to take over their accounts'
 author: MMPA Administration Team
-pubDatetime: 2023-07-20T13:50:10.627Z
+pubDatetime: 2023-07-30T17:37:20Z
 postSlug: gasauth
 featured: true
 draft: false
