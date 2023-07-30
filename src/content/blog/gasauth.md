@@ -27,7 +27,7 @@ This is a rather simple phishing vulnerability. In the OAuth scope for Microsoft
   - This is an important one. Without this, the app can only create access tokens for up to 48 hours before being kicked out. With this, it can indefinitely pose as you until you revoke access, which Microsoft seems to hide behind many prompts.
 
  
-![Microsoft OAuth Prompt](https://hackmd.io/_uploads/SyVBme4o2.png)
+![Microsoft OAuth Prompt](https://cdn.discordapp.com/attachments/1124494549574758531/1135256504988074124/SyVBme4o2.png)
 
 This can be **very dangerous if you accept this prompt even once**, as the access tokens will not get revoked until 48 hours pass. You currently cannot do anything to revoke them, other than wait 48 hours.
 
@@ -69,7 +69,7 @@ Later that day, Chippy created a ticket through Microsoft's bug tracker, Mojira,
 
 A week after the ticket's creation, Chippy alerted a Mojang employee about the ticket through the SaveMC Discord server, in a channel that the employee was frequently active in.
 
-![](https://hackmd.io/_uploads/SyeTpq-4i3.png)
+![](https://cdn.discordapp.com/attachments/1124494549574758531/1135256546423619594/SyeTpq-4i3.png)
 
 --------------------------------------
 *By December 10, 2022*
@@ -98,14 +98,14 @@ The live vulnerability showcase done on LiveOverflow's account by the Nodus team
 
 LiveOverflow contacted Microsoft Security Response Center (MSRC) after seeing the extent of the vulnerability and having it used against him. The MSRC case number is `VULN-097281` (This would later be updated to `MSRC-78760`)
 
-![](https://cdn.discordapp.com/attachments/1124494549574758531/1135226745080004658/image.png)
+![](https://cdn.discordapp.com/attachments/1124494549574758531/1135256570834468974/image.png)
 
 --------------------------------------
 *On April 18th, 2023*
 
 LiveOverflow received this from the MSRC team, saying they confirmed the issue and are discussing how to fix it.
 
-!["still waiting btw" with the attached screenshot](https://cdn.discordapp.com/attachments/1124494549574758531/1135201378059436042/image.png)
+!["still waiting btw" with the attached screenshot](https://cdn.discordapp.com/attachments/1124494549574758531/1135256585707470888/image.png)
 
 --------------------------------------
 *On June 1st, 2023*
