@@ -74,7 +74,7 @@ A week after the ticket's creation, Chippy alerted a Mojang employee about the t
 --------------------------------------
 *By December 10, 2022*
 
-APTs had started using this attack in the wild, mainly in the Hypixel Skyblock community. An update had yet to be received from Microsoft on this matter.
+Attackers had started using this attack in the wild, mainly in the Hypixel Skyblock community. An update had yet to be received from Microsoft on this matter.
 
 -------------------------------------- 
 *On December 28, 2022*
