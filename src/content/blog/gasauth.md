@@ -14,9 +14,10 @@ description: Poor documentation of OAuth scopes leads to full account access.
 ## TL;DR
 
 Due to incorrect wording in Microsoft's OAuth consent screen, a service that claims to be accessing basic information can instead gain permanent access to your Minecraft account. We highly recommend visiting https://account.live.com/consent/Manage and revoking access to unfamiliar or obsolete connections.
-## The Vulnerability
 
-This is a rather simple phishing vulnerability. In the OAuth scope for Microsoft permissions, Microsoft is understating how much information applications are given when connecting your account to a service.
+## The Issue
+
+This is a rather simple wording issue. In the OAuth scope for Microsoft permissions, Microsoft is understating how much information applications are given when connecting your account to a service.
 
 ### Let's explain what the consent screen says, versus what it does.
 - Access your Xbox Live profile information and associated data, and sign you into its services as your Xbox Live profile information and associated data, and sign you into its services
@@ -34,7 +35,8 @@ This can be **very dangerous if you accept this prompt even once**, as the acces
 ## Mitigation
 
 Mitigation of this attack is completely up to the user until Microsoft releases a fix.
-###  Do not give access to "basic Xbox Live information" unless you trust the application.
+
+### Do not give access to "basic Xbox Live information" unless you trust the application.
 
 If you believe you have done so in the past, please confirm that the apps you've given access to are trustworthy and are related to services you actively use: https://account.live.com/consent/Manage
 
@@ -42,7 +44,7 @@ If you believe you have done so in the past, please confirm that the apps you've
 
 There is no official solution from Microsoft at the time of this blog post, and we are not expecting one anytime soon due to Microsoft's continued ignorance of this issue.
 
-## Usages Of The Vulnerability In The Wild
+## Usages of OAuth phishing in the wild
 
 We have generally seen it being used in the Hypixel Skyblock community, with the intent of stealing user's accounts for in-game currency or rare items. Other notable usages are; 
 - The OG name community (due to Minecraft access tokens being capable of changing usernames)
@@ -65,7 +67,7 @@ A user going by the name of "ChiefChippy2" (We will refer to them as Chippy) con
 
 ![Chippy messaging Ada](https://toaster.sh/i/m8u40jno.png)
 
-Later that day, Chippy created a ticket through Microsoft's bug tracker, Mojira, explaining the vulnerability. The private Mojira ticket's ID is `WEB-6006`.
+Later that day, Chippy created a ticket through Microsoft's bug tracker, Mojira, explaining the issue. The private Mojira ticket's ID is `WEB-6006`.
 
 A week after the ticket's creation, Chippy alerted a Mojang employee about the ticket through the SaveMC Discord server, in a channel that the employee was frequently active in.
 
@@ -74,29 +76,29 @@ A week after the ticket's creation, Chippy alerted a Mojang employee about the t
 --------------------------------------
 *By December 10, 2022*
 
-Attackers had started using this attack in the wild, mainly in the Hypixel Skyblock community. An update had yet to be received from Microsoft on this matter.
+Attackers had started using this issue in the wild, mainly in the Hypixel Skyblock community. An update had yet to be received from Microsoft on this matter.
 
 -------------------------------------- 
 *On December 28, 2022*
 
-The YouTube channel No Text To Speech made a video [about the vulnerability](https://youtu.be/uHKhSFc9RqA).
+The YouTube channel No Text To Speech made a video [about the issue](https://youtu.be/uHKhSFc9RqA).
 
 --------------------------------------
 
 *On March 14th, 2023*
 
-As it began approaching a year since the issue first emerged and Mojang still hadn't acknowledged the issue, Gildfesh made the decision to further pressure Microsoft into fixing the vulnerability.
+As it began approaching a year since the issue first emerged and Mojang still hadn't acknowledged the issue, Gildfesh made the decision to further pressure Microsoft into fixing the issue.
 
 Gildfesh obtained permission from the [YouTuber LiveOverflow](https://www.youtube.com/@LiveOverflow) to demonstrate the exploit on him, as part of LiveOverflow's Hacking Minecraft series.
 
-The live vulnerability showcase done on LiveOverflow's account by the Nodus team can be viewed here;
+A successful attempt done on LiveOverflow's account by the Nodus team can be viewed here;
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Uf2EPT3AGkw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 --------------------------------------
 *On April 3rd, 2023*
 
-LiveOverflow contacted Microsoft Security Response Center (MSRC) after seeing the extent of the vulnerability and having it used against him. The MSRC case number is `VULN-097281` (This would later be updated to `MSRC-78760`)
+LiveOverflow contacted Microsoft Security Response Center (MSRC) after seeing the extent of the issue and having it used against him. The MSRC case number is `VULN-097281` (This would later be updated to `MSRC-78760`)
 
 ![](https://cdn.discordapp.com/attachments/1124494549574758531/1135256570834468974/image.png)
 
@@ -115,14 +117,14 @@ LiveOverflow received this from the MSRC team, saying they confirmed the issue a
 --------------------------------------
 *On July 30th, 2023*
 
-TheMisterEpic released a video [informing his audience of the vulnerability](https://www.youtube.com/watch?v=4t92Wlu5a3s) with help from the Nodus team.
+TheMisterEpic released a video [informing his audience of the issue](https://www.youtube.com/watch?v=4t92Wlu5a3s) with help from the Nodus team.
 
-After this video, MMPA deemed the vulnerability as declassified and decided it was better to inform the users instead of waiting for a patch, which led to the release of this blog post.
+After this video, MMPA deemed the issue as declassified and decided it was better to inform the users instead of waiting for a patch, which led to the release of this blog post.
 
 ## Credits
 
-- ChiefChippy2 (For initial vulnerability discovery and report)
-- [Nodus](https://nodus.gg) (For notifying us about this and their continued effort to fix the vulnerability)
+- ChiefChippy2 (For initial discovery and report)
+- [Nodus](https://nodus.gg) (For notifying us about this and their continued effort to fix the issue)
 - No Text To Speech (For reporting on this issue)
 - TheMisterEpic (For reporting on this issue)
 - xyzeva - (Writing the blog post)
