@@ -29,7 +29,7 @@ This is a rather simple phishing vulnerability. In the OAuth scope for Microsoft
 #### (In this, we will be using MultiMC as an example. The name can be anything! Do not assume because there is a trusted name that it is by a trusted developer.)
 ![Microsoft OAuth Prompt](https://cdn.discordapp.com/attachments/1124494549574758531/1135256504988074124/SyVBme4o2.png)
 
-This can be **very dangerous if you accept this prompt even once**, as the access tokens will not get revoked until 48 hours pass. If you are afraid you've been hacked, go to Xbox parental controls and disable Multiplayer until 48 hours have passed.
+This can be **very dangerous if you accept this prompt even once**, as the access tokens will not get revoked until 48 hours pass. You currently cannot do anything to revoke them, other than wait 48 hours.
 
 ## Mitigation
 
