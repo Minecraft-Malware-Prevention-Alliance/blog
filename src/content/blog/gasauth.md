@@ -52,6 +52,22 @@ We have generally seen it being used in the Hypixel Skyblock community, with the
 - Minecraft servers that "require verification" to play
 - Discord giveaway servers that "require Minecraft verification" to join
 
+## How you can report these malicious apps
+
+- Go to the official report form by going to https://aka.ms/mce-reviewappid
+- Select `Existing AppID for Review/Report` for the request type
+- Find the page where it asks you to authorize the app and use the name shown there (usually some impersonation of Discord/Minecraft/Hypixel/whatever)
+- Find the application's ID:
+  - to do this, look at the URL: https://login\.live\.com/oauth20_authorize\.srf?client_id=**f0376527-21d0-4bff-8fe0-88a20e9886f4**&response_type=code&scope=XboxLive\.signin%20offline_access&state=...
+  - `client_id=` is what you're looking for (example above)
+- You can leave the tenant ID empty.
+- If the scam came from a Discord server, enter the link under `associated website or domain`, or otherwise link to the website that asks you to authorize.
+- You can use `Gathering user account credentials and exporting them to a non-Microsoft platform.` as justification
+- Under the "any other information" section, you can add the following:
+  - If the link was using a shortened link (like bitly) provide an unshortened version
+  - Where the link came from (in-game, from a discord, or from a website?)
+  - A link to a screenshot of the link being distributed
+
 ## Message for Microsoft
 
 Please change the Xbox Live scope descriptions. Add a **very clear** warning that this scope can be used to obtain access tokens.
