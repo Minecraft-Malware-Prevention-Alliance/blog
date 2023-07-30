@@ -18,15 +18,15 @@ Due to incorrect wording in Microsoft's OAuth consent screen, a service that cla
 
 This is a rather simple phishing vulnerability. In the OAuth scope for Microsoft permissions, Microsoft is understating how much information applications are given when connecting your account to a service.
 
-#### (In the following images, we will be using MultiMC as an example. The MultiMC launcher is safe, and this is just for demonstration purposes. Malicious apps can go by pretty much any name they want though, so be careful when connecting your account to untrustworthy services!)
-
 ### Let's explain what the consent screen says, versus what it does.
 - Access your Xbox Live profile information and associated data, and sign you into its services as your Xbox Live profile information and associated data, and sign you into its services
   - This is not the full story. By giving an application this permission, it also allows full access for the application to grab your access token, and thus log into the game as you.
 - Maintain access to data you have given the app access to
   - This is an important one. Without this, the app can only create access tokens for up to 48 hours before being kicked out. With this, it can indefinitely pose as you until you revoke access, which Microsoft seems to hide behind many prompts.
 
- 
+
+
+#### (In this, we will be using MultiMC as an example. The name can be anything! Do not assume because there is a trusted name that it is by a trusted developer.)
 ![Microsoft OAuth Prompt](https://cdn.discordapp.com/attachments/1124494549574758531/1135256504988074124/SyVBme4o2.png)
 
 This can be **very dangerous if you accept this prompt even once**, as the access tokens will not get revoked until 48 hours pass. You currently cannot do anything to revoke them, other than wait 48 hours.
