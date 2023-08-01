@@ -146,6 +146,7 @@ After this video, MMPA deemed the issue as declassified and decided it was bette
 - xyzeva - (Writing the blog post)
 - IMS12 - (Writing the blog post)
 - chorb (Proofreading and revisions)
+- [LiveOverflow](https://www.youtube.com/@LiveOverflow) (Publicity)
 
 
 ## Bloopers
@@ -164,7 +165,7 @@ After this video, MMPA deemed the issue as declassified and decided it was bette
 > the site to fix this
 > HAS WENT DOWN @Gildfesh
 > @Ada
-> https://account.live.com/consent
+> https://account.live.com/consent/Manage
 > THE CONSENT SITE IS DOWN
 
 \- IMS, 2023
