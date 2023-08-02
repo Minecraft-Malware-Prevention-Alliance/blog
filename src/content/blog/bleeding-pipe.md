@@ -31,7 +31,7 @@ The known affected mods include, but are not limited to:
 
 - EnderCore (dependency of EnderIO). The GT New Horizons fork has been fixed, and the original has been aswell, but EnderIO's minimum versions has not yet been updated.
 - LogisticsPipes. This has once again been fixed in GT New Horizons version as of July 25, 2023, and the original is fixed since version 0.10.0.71. MC 1.12 versions are not affected. If you have played on a server with a vulnerable version, assume you are infected.
-- The 1.7-1.12 versions of BDLib. Once again, GTNH fork has this fixed, but the developer of the original currently does not plan to fix it. Assume you are infected if you have played on a server and are not on the GTNH fork.
+- The 1.7-1.12 versions of BDLib. Both the GTNH fork and the original have been fixed as of August 1, update your versions.
 - [Smart Moving 1.12](https://www.curseforge.com/minecraft/mc-mods/smart-moving-1-12-2)
 - [Brazier](https://www.curseforge.com/minecraft/mc-mods/brazier)
 - [DankNull](https://www.curseforge.com/minecraft/mc-mods/dank-null)
@@ -75,9 +75,7 @@ As a player, we recommend checking for suspicious files, doing an antivirus scan
 
 ### Mitigation
 
-If you have EnderIO or LogisticsPipes, update to the latest versions on CurseForge.
-
-If you have BDLib, migrate to the GT New Horizons fork if possible.
+If you have EnderIO, BDlib, or LogisticsPipes, update to the latest versions on CurseForge.
 
 To mitigate all mods generally, you can install our mod [PipeBlocker](https://modrinth.com/mod/pipeblocker) on both forge servers and clients. We also recommend updating LogisticsPipes and all of your other mods to the newest versions available. Note that pre-made modpacks may become unstable or otherwise break by updating all mods. 
 
