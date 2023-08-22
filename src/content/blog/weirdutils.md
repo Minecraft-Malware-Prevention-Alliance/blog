@@ -1,5 +1,5 @@
 ---
-title: 'WeirdUtils: Advanced SkyBlock Malware'
+title: 'Weird Utils: Advanced SkyBlock Malware'
 author: MMPA Administration Team
 pubDatetime: 2023-08-22T16:02:58.844Z
 postSlug: weirdutils
