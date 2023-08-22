@@ -12,7 +12,7 @@ description: "What's a lets encrypt? Let's figure it out together.."
 
 # WeirdUtils
 
-WeirdUtils is a family of advanced malware mainly targetting players of [Hypixel's SkyBlock gamemode](https://wiki.hypixel.net/Introduction) (**THAT DOES NOT MEAN ITS *ONLY* TARGETING SKYBLOCK**). A minimum of 5,000 people have installed files infected with WeirdUtils over the span of two years. At the time of this blog post's release, WeirdUtils is not detectable by major antiviruses. The known mods are impersonating open source, or closed source projects, and adding malware.
+WeirdUtils is a family of advanced malware mainly targetting players of [Hypixel's SkyBlock gamemode](https://wiki.hypixel.net/Introduction) (**THAT DOES NOT MEAN ITS *ONLY* TARGETING SKYBLOCK**). A *many* people have installed files infected with WeirdUtils over the span of two years. At the time of this blog post's release, WeirdUtils is not detectable by major antiviruses. The known mods are impersonating open source, or closed source projects, and adding malware.
 
 *Documentation in progress, nothing is finalised*
 
