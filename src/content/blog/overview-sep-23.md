@@ -123,7 +123,7 @@ We would like the Spigot team to strengthen their approval process due to how bi
 
 ### TOTP (or WebAuthn)
 
-A required 2FA implementation that pops up when you try to, for example, upload or update a new version of a mod would be a big step towards preventing compromised accounts from spreading malware. SMS 2FA would not be ideal due to how unsafe is.
+A required 2FA implementation that pops up when you try to, for example, upload or update a new version of a mod would be a big step towards preventing compromised accounts from spreading malware. SMS 2FA would not be ideal due to how unsafe it is.
 
 [GitHub has already done this](https://github.blog/2023-03-09-raising-the-bar-for-software-security-github-2fa-begins-march-13/), requiring all users to enable 2FA with TOTP or Webauthn. 
 
