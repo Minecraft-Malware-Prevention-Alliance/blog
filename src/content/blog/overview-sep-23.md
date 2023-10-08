@@ -26,7 +26,7 @@ or in raw numbers,
 - Bukkit: 1
 - Modrinth: 0
 
-As seen from the chart above, Modrinth has been consistently malware-free for several months (**this does not guarantee safety**). Below is a statement from Emma Alexia, a Growth Manager and Lead Moderator at Modrinth.
+As seen from the chart above, Modrinth has been consistently malware-free for several months (**this does not guarantee safety**). Below is a statement from Emma Alexia, a Growth Manager and Lead Moderator at Modrinth on how often they see attempts of malware being uploaded to their platform.
 
 ![A Discord message from Emma Alexia that reads "Modrinth's specific definition of 'malware' includes things that other people may not consider malware, so the number of takedowns for malware we have is higher than actual cases of malicious software being uploaded. that said, once a month or less"](https://polarite.with-your.mom/r/b1232cac-436b-4059-80ec-c44e5ee6ac2b.png)
 
