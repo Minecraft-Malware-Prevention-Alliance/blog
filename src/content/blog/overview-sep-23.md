@@ -1,7 +1,7 @@
 ---
 title: 'MMPA Monthly Overview #1 (September)'
 author: MMPA Administration Team
-pubDatetime: 2023-07-20T13:50:10.627Z
+pubDatetime: 2023-10-08T17:35:36.533Z
 postSlug: overview-sep-23
 featured: true
 draft: false
@@ -16,14 +16,7 @@ ogImage: "monthly/sep-23-og.png"
 # Introduction
 September did not have many malware incidents, but MMPA has made decent progress toward several measures for preventing the spread of malware. 
 
-```mermaid
-pie title Sources of Malware MMPA Investigated, Sep 2023
-    "Curseforge": 4
-    "Discord": 2
-    "Bukkit": 1
-    "Spigot": 2
-    "Modrinth": 0
-```
+![Pie chart, Curseforge 44%, Discord 22%, Bukkit 11%, Spigot 22%, Modrinth 0%](https://files.horizon.pics/200604d0-7ed0-45ff-b534-6a8ba0eb0125?a=580&mime1=image&mime2=png)
 As seen from the chart above, Modrinth has been consistently malware-free for several months (**this does not guarantee safety**). Below is a statement from Emma Alexia, a Growth Manager and Lead Moderator at Modrinth.
 
 ![A Discord message from Emma Alexia that reads "Modrinth's specific definition of 'malware' includes things that other people may not consider malware, so the number of takedowns for malware we have is higher than actual cases of malicious software being uploaded. that said, once a month or less"](https://polarite.with-your.mom/r/b1232cac-436b-4059-80ec-c44e5ee6ac2b.png)
