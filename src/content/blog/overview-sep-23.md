@@ -165,7 +165,6 @@ If you are willing to work on Windows sandboxing with us, please make sure to [s
 - Lenni0451 - Alerting us of several malicious Spigot plugins and helping us decompile the malicious code
 - Modrome - Alerting MMPA about the issue from the "Bonus" section and helping research Seroxen
 - u/RedChuJelly - Making the Reddit post from the "Bonus" section
-- LambdAurora - Proofreading and suggestion of post changes
 - PandaNinjas - Helping with Seroxen research
 - mommyraven - Helping with Seroxen research
 - barrulik - Helping with Seroxen research
