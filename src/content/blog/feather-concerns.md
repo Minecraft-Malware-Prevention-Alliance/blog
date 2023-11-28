@@ -130,7 +130,7 @@ The other solution they gave to this was to change your Feather status to invisi
 
 #### Dumping All Users
 
-We quickly realized that the patch they made for dumping all users was insufficient, cause we discovered an extra parameter called `email`, which even if it's an array of some bogus, returns all users.
+We quickly realized that the patch they made for dumping all users was insufficient, because we discovered an extra parameter called `email`, which even if it's an array of some bogus, returns all users.
 
   They quickly patched this one without us even reporting it, probably because every request took several seconds even with the `limit` set to `1`.
 
